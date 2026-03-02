@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Факты обо мне</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #8255d6 0%, #93eef1 100%);
+            min-height: 100vh;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 50px;
+            box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 57px;
+            margin-bottom: 30px;
+            color: #262161;
+        }
+        
+        p {
+            font-size: 30px;
+            margin: 20px 0;
+            color: #0d0413;
+            line-height: 1.4;
+        }
+        
+        .fact-block {
+            font-size: 35px;
+            color: #1a0820;
+            font-weight: bold;
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #f0e9db;
+            border-radius: 30px;
+        }
+        
+        .back-button {
+            display: inline-block;
+            font-size: 20px;
+            padding: 20px 40px;
+            background-color: #a8ffff;
+            border-radius: 60px;
+            color: #0e0b11;
+            text-decoration: none;
+            margin-top: 30px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            box-shadow: 0 5px 0 #05ee66;
+        }
+        
+        .back-button:hover {
+            background-color: #c67df0;
+            color: white;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 0 #1feef5;
+            border-color: #cbb28b;
+            cursor: pointer;
+        }
+        
+        .back-button:active {
+            transform: translateY(2px);
+            box-shadow: 0 3px 0 #0b0a16;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Факты обо мне</h1>
+        
+        <p>Я занимаюсь в зале<br></p>
+        <p>Так-же я стеснительный ✨</p>
+        
+        <div class="fact-block">
+            Люблю пробывать себя в новых интересных занятиях
+        </div>
+        
+        <a href="./index.html" class="back-button">← Назад</a>
+    </div>
+</body>
+</html>
